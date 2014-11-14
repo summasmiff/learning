@@ -64,4 +64,4 @@ tree = BinaryTree::Node.new(20)
 tree.left = BinaryTree::Node.new(15) 
 tree.right = BinaryTree::Node.new(25) 
 tree3 = BinaryTree::Node.new(3) #you are not going where you are supposed to go
-puts tree.inspect
+puts tree.inspect 
