@@ -21,4 +21,4 @@ end
 
 sample_array = (1..99).to_a.sample 10 #picks random 10#s between 1 and 99
 sorted_array = quicksort(sample_array)
-puts sorted_array
+puts sorted_array.inspect
