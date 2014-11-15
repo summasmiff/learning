@@ -5,7 +5,7 @@ module BinaryTree
 			[]
 		end
 
-		def include?(*) #* means literally any value - this class needs to be after Node class
+		def include?(*) #* means literally any value
 			false
 		end
 
