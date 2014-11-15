@@ -4,7 +4,7 @@ require 'benchmark'
 
 def bogosort(array)
 	return array if array.length <= 1 #sorted already
-	array.sort_by { rand } until array = array.sort
+	array.shuffle! until array = array.sort
 	array
 end
 	
@@ -30,5 +30,6 @@ def quicksort(array)
 	return quicksort(right).push(pivot) + quicksort(left)
 end
 
-puts Benchmark.measure {quicksort((1..9999).to_a.sample 10000)}
-puts Benchmark.measure {bogosort((1..9999).to_a.sample 10000)}
+puts Benchmark.measure {quicksort((1..9999).to_a.sample 1000000)}
+puts Benchmark.measure {bogosort((1..9999).to_a.sample 1000000)}
+puts Benchmark.measure {((1..9999).to_a.sample 1000000).sort}
