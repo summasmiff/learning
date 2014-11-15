@@ -15,5 +15,4 @@ def bubblesort(array)
 	puts array
 end
 
-array = [3,6,774,24,56,2,64,56,34]
-bubblesort(array)
+puts [3,6,774,24,56,2,64,56,34].bubblesort.inspect
