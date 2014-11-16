@@ -27,4 +27,4 @@ class Array
 end
 
 #keep slicin' til there's no more slicin' to slice
-puts [3,6,774,24,56,2,64,56,34].mergesort
+puts [3,6,774,24,56,2,64,56,34].mergesort.inspect
