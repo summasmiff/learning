@@ -63,5 +63,5 @@ end
 tree = BinaryTree::Node.new(20)
 tree.left = BinaryTree::Node.new(15) 
 tree.right = BinaryTree::Node.new(25) 
-tree.left.left = BinaryTree::Node.new(3) #can i recursively insert without the .left modifier?
+insert(3) #can i recursively insert without the .left modifier?
 puts tree.inspect 

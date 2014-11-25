@@ -1,0 +1,21 @@
+---
+- !ruby/object:Vhs
+  title: Good Burger
+  director: Brian Robbins
+  category: :comedy
+- !ruby/object:Vhs
+  title: Vanilla Sky
+  director: Cameron Crowe
+  category: :drama
+- !ruby/object:Vhs
+  title: Pride & Prejudice
+  director: Joe Wright
+  category: :romance
+- !ruby/object:Vhs
+  title: Grizzly Man
+  director: Werner Herzog
+  category: :documentary
+- !ruby/object:Vhs
+  title: Spinal Tap
+  director: Christopher Guest
+  category: :mockumentary
